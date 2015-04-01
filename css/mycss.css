@@ -1,37 +1,52 @@
-h1{
-	text-align:center;
+h1 {
+	text-align: center;
 }
-
-
-#benztownpic{
-	border-radius:2%;
+#benztownpic {
+	border-radius: 2%;
 }
-.page-header{
-		margin-top:-10px;
+.page-header {
+	margin-top: -10px;
 }
-
-.page-header h1{
-	font-size:4em;
-	line-height:.8em;
-	margin-bottom:1px;
-	margin-top:0;
-
+.page-header h1 {
+	font-size: 4em;
+	line-height: .8em;
+	margin-bottom: 1px;
+	margin-top: 0;
 }
-.page-header h1 small{
-	font-size:.3em;
-	font-weight:100;
+.page-header h1 small {
+	font-size: .3em;
+	font-weight: 100;
+}
+#headlogo {
+	width:500;
+}
+body{
+background-image:url(../img/pattern.jpg);
+background-size:cover;
 }
 
 /****************************
 MEDIA QUERIES
 ****************************/
-@media(max-width:767px){
-		.col-md-5{
-		margin-top:10px;
-		}}
-@media(min-width:768px){
-		.col-md-5{
-		margin-top:10px;
-		}}
-@media(min-width:992px){
-@media(min-width:1200px){}
+@media(max-width:767px) {
+
+.col-md-5 {
+	margin-top: 10px;
+}
+}
+
+@media(min-width:768px) {
+.col-md-5 {
+	margin-top: 10px;
+}
+
+}
+
+@media(max-width:500px) {
+#headlogo {
+	width:100%;
+}
+#benztownpic{
+	width:60%;
+}
+}
