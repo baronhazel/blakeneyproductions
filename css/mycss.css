@@ -24,6 +24,9 @@ body{
 background-image:url(../img/pattern.jpg);
 background-size:cover;
 }
+.page-header{
+	height:140px;
+}
 
 /****************************
 MEDIA QUERIES
@@ -48,5 +51,8 @@ MEDIA QUERIES
 }
 #benztownpic{
 	width:60%;
+}
+.page-header{
+	height:120px;
 }
 }
