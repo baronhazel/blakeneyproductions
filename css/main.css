@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* CSS Document */
+<!--
+/*This is the info for the website as a whole*/
+body {
+	background-color: #22415e;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: white;
+}
+/*this is the head logo*/
+#header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*This is the body DIV and that changes background looks.*/
+#bodybg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 817px;
+	height: 450px;
+	background-color: #122e46;
+	border-radius: 1%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+/*Copright text at the bottom*/
+#copyright {
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+}
+/*Navigation Buttons*/
+#navbar1, #navbar2, #navbar3, #navbar4, #navbar5 {
+	display: inline-block;
+	height: 35px;
+	width: 150px;
+	border-radius: 5px;
+	background: linear-gradient(#9bafca, #22415e);
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Sans-Serif;
+	opacity: 1.0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
+}
+/*this is the divider that holds the nav buttons*/
+#navholder {
+	display: block;
+	height: 44px;
+	width: 763px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*this is the main content divider*/
+#contenthome {
+	padding-top: 10%;
+	width: auto;
+	height: 320px;
+
+}
+/*Despite the name, this is the gray box on the left of all pages that holds the pictures its manipulated in this file for size color and location on the contenthome divier*/
+#homemicpic {
+	background: linear-gradient(#9bafca, #22415e);
+	width: 175px;
+	height: 257px;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+/*This is the divider that holds the text on each page*/
+#hometext {
+	width:635px;
+	height:395px;
+	margin-left:180px;
+	margin-top:-41.70%;
+	margin-bottom:auto;
+	font-size:13px;
+}
+#rTower{
+	margin-top:20%;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;	
+}
+/*Text for main page title*/
+h1{
+text-align:center;	
+}
+
+/*Stuff for contactMike Page in case you split the text */
+
+#textleft, #textright {
+    height: 395px;
+	width:311px;
+	display:inline-block;
+	margin-bottom:auto;
+	margin-top:auto;
+	font-size:13px;
+}
+#textleft {
+
+}
+#textright {
+ 	text-align:center;
+
+}
+
+/* Old CSS Stuff for Reference
+
+
+.style10 {
+	font-size: 8px;
+	font-weight: bold;
+}
+.style11 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+}
+a:link {
+	text-decoration: none;
+	color: #006699;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style12 {
+	font-size: 11px
+}
+.style13 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+.style14 {
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.style17 {
+	color: #66FFFF
+}
+.style18 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style19 {
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+-->*/
+
+
+ </style>
