@@ -155,7 +155,6 @@ body {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .jp-play {
-    background-image: url('images/play@2x.png');
     background-size: auto auto;
   }
 }
@@ -165,7 +164,6 @@ body {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .jp-pause {
-    background-image: url('images/pause@2x.png');
     background-size: auto auto;
   }
 }
@@ -181,7 +179,6 @@ body {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .jp-mute {
-    background-image: url('images/mute-off@2x.png');
     background-size: auto auto;
   }
 }
@@ -190,7 +187,6 @@ body {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .jp-unmute {
-    background-image: url('images/mute-on@2x.png');
     background-size: auto auto;
   }
 }
